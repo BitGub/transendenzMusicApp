@@ -28,6 +28,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+gem 'rubyzip',  "~> 0.9.9"
+
 group :development, :test do
   gem 'cheat'                   #command line cheat sheet
   gem 'rspec-rails', "~> 2.0"
