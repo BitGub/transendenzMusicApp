@@ -2,5 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$color: green;
-body{background: $color;}
+body { background: url(DSC_4242.JPG);  background-size: 100%; }
+.container { background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); }
+h1 { text-align:center; }
+ul { float:left; }
+li { float:left; }
+main { min-height:500px; }
+.bioText { padding-top:10%;}
+.container footer.sixteen.columns { background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)); margin-left:0; width:100%; float:left; height:70px; }
+footer .footerContainer {  }
